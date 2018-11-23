@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "ChromeIssue907920",
+    "short_name": "ChromeIssue907920",
+    "author": "https://github.com/collinsauve",
+    "description": "Demonstration of https://bugs.chromium.org/p/chromium/issues/detail?id=907920",
+    "version": "0.1",
+    "permissions": ["identity"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
